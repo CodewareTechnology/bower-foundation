@@ -131,7 +131,7 @@
       if (!$handle[0].hasAttribute('aria-valuemin')) {
         $handle.attr({
           'aria-valuemin': settings.start,
-          'aria-valuemax': settings.end,
+          'aria-valuemax': settings.end
         });
       }
       $handle.attr('aria-valuenow', value);
